@@ -30,6 +30,7 @@ end task2;
 architecture Behavioral of task2 is
 
 begin
-
+    
+    f <= not ( not ((a and not b) xor (not a or (b and c))) or ((not a and d) and ((b and not c) or (a and not b and c and not d) or (not a and c and not d))));
 
 end Behavioral;
