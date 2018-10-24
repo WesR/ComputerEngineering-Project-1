@@ -31,8 +31,6 @@ architecture Behavioral of task2 is
 
 begin
     
-    f <= (not A and not B and not C and not D) or (not A and not B and not C and D) or (not A and not B and C and not D) or (not A and not B and C and D)
-          or (not A and B and not C and not D) or (not A and B and C and not D) or (not A and B and C and D) or (A and not B and C and not D)
-          or (A and not B and C and D) or (A and B and C and not D) or (A and B and C and D);
+    f <= (not A and not B and not C and not D) or (not A and not B and not C and D) or (not A and not B and C and not D) or (not A and not B and C and D) or (not A and B and not C and not D) or (not A and B and C and not D) or (not A and B and C and D) or (A and not B and C and not D) or (A and not B and C and D) or (A and B and C and not D) or (A and B and C and D) or (A and not B and not C and not D) or (A and not B and not C and D);
 
 end Behavioral;
